@@ -1,3 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+    <remote name="exthm"
+            fetch="https://github.com/exTHmUI"
+            revision="Tenshi" />
+
+    <!-- Manifests -->
+    <project name="android" path="android" remote="exthm"/>
+
+    <!-- Build System -->
+    <project name="android_build" path="build/make" groups="pdk" remote="exthm" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project name="android_build_soong" path="build/soong" groups="pdk,tradefed" remote="exthm" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+    
 </manifest>
