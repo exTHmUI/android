@@ -23,6 +23,10 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Helper scripts -->
+    <project name="android_tools_extract-utils" path="tools/extract-utils" remote="exthm"/>
+    <project name="android_prebuilts_extract-tools" path="prebuilts/extract-tools" remote="exthm"/>
+
     <!-- Prebuilts -->
     <project name="android_prebuilts_tools-exthm" path="prebuilts/tools-exthm" remote="exthm" />
 
