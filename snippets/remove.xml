@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- Rootdir -->
+    <remove-project name="platform/bionic" />
+
     <!-- Build -->
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />

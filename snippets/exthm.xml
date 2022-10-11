@@ -8,6 +8,9 @@
     <!-- Manifests -->
     <project name="android" path="android" remote="exthm"/>
 
+    <!-- Rootdir -->
+    <project name="android_bionic" path="bionic" remote="exthm" />
+
     <!-- Build System -->
     <project name="android_build" path="build/make" groups="pdk" remote="exthm" >
         <copyfile src="core/root.mk" dest="Makefile" />
