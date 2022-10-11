@@ -32,5 +32,10 @@
 
     <!-- Vendor -->
     <project name="android_vendor_exthm" path="vendor/exthm" remote="exthm" />
+    
+    <!-- Device -->
+    <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="exthm" />
+    <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="exthm" />
+    <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="exthm" />
 
 </manifest>
