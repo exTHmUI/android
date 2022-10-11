@@ -22,5 +22,11 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    
+
+    <!-- Prebuilts -->
+    <project name="android_prebuilts_tools-exthm" path="prebuilts/tools-exthm" remote="exthm" />
+
+    <!-- Vendor -->
+    <project name="android_vendor_exthm" path="vendor/exthm" remote="exthm" />
+
 </manifest>
