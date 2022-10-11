@@ -61,4 +61,7 @@
     <remove-project name="device/ti/beagle-x15-kernel" />
     <remove-project name="device/ti/beagle-x15" />
 
+    <!-- Packages -->
+    <remove-project name="platform/packages/apps/ThemePicker" />
+
 </manifest>
