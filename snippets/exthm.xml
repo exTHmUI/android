@@ -26,6 +26,14 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Device -->
+    <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="exthm" />
+    <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="exthm" />
+    <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="exthm" />
+
+    <!-- Frameworks -->
+    <project name="android_frameworks_base" path="frameworks/base" remote="exthm"/>
+
     <!-- Helper scripts -->
     <project name="android_tools_extract-utils" path="tools/extract-utils" remote="exthm"/>
     <project name="android_prebuilts_extract-tools" path="prebuilts/extract-tools" remote="exthm"/>
@@ -38,10 +46,5 @@
 
     <!-- Vendor -->
     <project name="android_vendor_exthm" path="vendor/exthm" remote="exthm" />
-    
-    <!-- Device -->
-    <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="exthm" />
-    <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="exthm" />
-    <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="exthm" />
 
 </manifest>
