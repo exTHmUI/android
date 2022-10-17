@@ -68,6 +68,7 @@
     <remove-project name="platform/frameworks/base" />
 
     <!-- Packages -->
+    <remove-project name="platform/packages/apps/Nfc" />
     <remove-project name="platform/packages/apps/ThemePicker" />
 
     <!-- System -->
