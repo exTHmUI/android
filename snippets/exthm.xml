@@ -40,6 +40,7 @@
 
     <!-- Packages -->
     <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="exthm" />
+    <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="exthm" />
     <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="exthm" />
 
     <!-- Prebuilts -->
