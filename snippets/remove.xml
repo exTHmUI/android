@@ -66,6 +66,8 @@
 
     <!-- Frameworks -->
     <remove-project name="platform/frameworks/base" />
+    <remove-project name="platform/frameworks/opt/net/ims" />
+    <remove-project name="platform/frameworks/opt/telephony"/>
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Nfc" />

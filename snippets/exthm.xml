@@ -33,6 +33,8 @@
 
     <!-- Frameworks -->
     <project name="android_frameworks_base" path="frameworks/base" remote="exthm"/>
+    <project name="android_frameworks_opt_net_ims" path="frameworks/opt/net/ims" remote="exthm"/>
+    <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="exthm"/>
 
     <!-- Helper scripts -->
     <project name="android_tools_extract-utils" path="tools/extract-utils" remote="exthm"/>
