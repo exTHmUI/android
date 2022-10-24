@@ -54,6 +54,22 @@
     <project name="android_system_update_engine" path="system/update_engine" remote="exthm" />
 
     <!-- Vendor -->
+    <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" groups="qcom,qssi" remote="exthm" />
     <project name="android_vendor_exthm" path="vendor/exthm" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" groups="qcom,qssi" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" groups="qcom,lahaina" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" groups="qcom,qssi" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_commonsys_display" path="vendor/qcom/opensource/commonsys/display" groups="qcom,qssi" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" groups="qcom,lahaina" remote="exthm" revision="Tenshi-legacy-um" />
+    <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" groups="qcom,waipio-vendor" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" groups="qcom" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" groups="qcom,qssi" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" groups="qcom,qssi" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" groups="qcom,waipio-vendor" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" groups="qcom,waipio-vendor" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" groups="qcom,waipio-vendor" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" groups="qcom,waipio-vendor" remote="exthm" />
+    <project name="android_vendor_qcom_opensource_wfd-commonsys" path="vendor/qcom/opensource/wfd-commonsys" groups="qcom,waipio-video" remote="exthm" />
 
 </manifest>
