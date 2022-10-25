@@ -51,6 +51,7 @@
 
     <!-- Prebuilts -->
     <project name="android_prebuilts_exthmuix" path="prebuilts/exthmuix" remote="exthm" />
+    <project name="android_prebuilts_exthmui-sdk" path="prebuilts/exthmui-sdk" remote="exthm" />
     <project name="android_prebuilts_tools-exthm" path="prebuilts/tools-exthm" remote="exthm" />
 
     <!-- System -->
