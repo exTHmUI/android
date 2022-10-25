@@ -45,7 +45,9 @@
     <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="exthm" />
     <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="exthm" />
     <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="exthm" />
+    <project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="exthm" />
     <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="exthm" />
+    <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="exthm" />
 
     <!-- Prebuilts -->
     <project name="android_prebuilts_exthmuix" path="prebuilts/exthmuix" remote="exthm" />
