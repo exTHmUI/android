@@ -69,6 +69,12 @@
     <remove-project name="platform/frameworks/opt/net/ims" />
     <remove-project name="platform/frameworks/opt/telephony"/>
 
+    <!-- Hardware -->
+    <remove-project name="platform/hardware/qcom/sdm845/display" />
+    <remove-project name="platform/hardware/qcom/sdm845/media" />
+    <remove-project name="platform/hardware/qcom/sm7250/display" />
+    <remove-project name="platform/hardware/qcom/sm7250/media" />
+
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Nfc" />
     <remove-project name="platform/packages/apps/Settings" />
