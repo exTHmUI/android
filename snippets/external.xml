@@ -12,4 +12,8 @@
     <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
     <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
 
+    <!-- GCC toolchain -->
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+
 </manifest>
