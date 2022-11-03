@@ -27,6 +27,7 @@
     </project>
 
     <!-- Device -->
+    <project name="android_device_exthm_sepolicy" path="device/exthm/sepolicy" remote="exthm" />
     <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="exthm" />
     <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="exthm" />
     <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="exthm" />
