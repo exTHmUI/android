@@ -89,6 +89,7 @@
     <project name="android_vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" groups="qcom,waipio-vendor" remote="exthm" />
     <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" groups="qcom,waipio-vendor" remote="exthm" />
     <project name="android_vendor_qcom_opensource_wfd-commonsys" path="vendor/qcom/opensource/wfd-commonsys" groups="qcom,waipio-video" remote="exthm" />
+    <project name="android_vendor_support" path="vendor/support" remote="exthm" />
 
     <!-- CodeLinaro Additions -->
     <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="exthm" />
