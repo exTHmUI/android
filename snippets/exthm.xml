@@ -37,6 +37,7 @@
     <project name="android_frameworks_base" path="frameworks/base" remote="exthm"/>
     <project name="android_frameworks_opt_net_ims" path="frameworks/opt/net/ims" remote="exthm"/>
     <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="exthm"/>
+    <project name="android_frameworks_proto_logging" path="frameworks/proto_logging" remote="exthm" />
 
     <!-- Hardware -->
     <project name="android_hardware_interfaces" path="hardware/interfaces" remote="exthm" />
