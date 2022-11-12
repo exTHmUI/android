@@ -34,6 +34,7 @@
     <project name="android_device_qcom_sepolicy_vndr-legacy-um" path="device/qcom/sepolicy_vndr-legacy-um" remote="exthm" />
 
     <!-- Frameworks -->
+    <project name="android_frameworks_av" path="frameworks/av" remote="exthm" />
     <project name="android_frameworks_base" path="frameworks/base" remote="exthm"/>
     <project name="android_frameworks_opt_net_ims" path="frameworks/opt/net/ims" remote="exthm"/>
     <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="exthm"/>
