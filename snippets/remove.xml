@@ -92,6 +92,9 @@
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/ThemePicker" />
 
+    <!-- Recovery -->
+    <remove-project name="platform/bootable/recovery" />
+
     <!-- System -->
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/update_engine" />
