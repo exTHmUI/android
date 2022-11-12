@@ -73,6 +73,7 @@
 
     <!-- System -->
     <project name="android_system_core" path="system/core" remote="exthm" />
+    <project name="android_system_sepolicy" path="system/sepolicy" remote="exthm" />
     <project name="android_system_update_engine" path="system/update_engine" remote="exthm" />
 
     <!-- Vendor -->

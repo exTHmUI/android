@@ -97,6 +97,7 @@
 
     <!-- System -->
     <remove-project name="platform/system/core" />
+    <remove-project name="platform/system/sepolicy" />
     <remove-project name="platform/system/update_engine" />
 
 </manifest>
