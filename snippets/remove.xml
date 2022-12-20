@@ -92,6 +92,7 @@
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Contacts" />
+    <remove-project name="platform/packages/apps/Dialer" />
     <remove-project name="platform/packages/apps/Messaging" />
     <remove-project name="platform/packages/apps/Nfc" />
     <remove-project name="platform/packages/apps/Settings" />
