@@ -98,6 +98,7 @@
     <remove-project name="platform/packages/apps/Nfc" />
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/ThemePicker" />
+    <remove-project name="platform/packages/modules/NetworkStack" />
 
     <!-- Recovery -->
     <remove-project name="platform/bootable/recovery" />
