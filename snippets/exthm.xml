@@ -33,6 +33,10 @@
     <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="exthm" />
     <project name="android_device_qcom_sepolicy_vndr-legacy-um" path="device/qcom/sepolicy_vndr-legacy-um" remote="exthm" />
 
+    <!-- Google Devices -->
+    <project name="android_device_google_raviole" path="device/google/raviole" remote="exthm" />
+    <project name="android_device_google_gs101" path="device/google/gs101" remote="exthm" />
+
     <!-- Frameworks -->
     <project name="android_frameworks_av" path="frameworks/av" remote="exthm" />
     <project name="android_frameworks_base" path="frameworks/base" remote="exthm"/>
