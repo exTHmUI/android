@@ -91,21 +91,6 @@
     <!-- Vendor -->
     <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" groups="qcom,qssi" remote="exthm" />
     <project name="android_vendor_exthm" path="vendor/exthm" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" groups="qcom,qssi" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" groups="qcom,lahaina" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" groups="qcom,qssi" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_commonsys_display" path="vendor/qcom/opensource/commonsys/display" groups="qcom,qssi" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" groups="qcom,lahaina" remote="exthm" revision="Tenshi-legacy-um" />
-    <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" groups="qcom,waipio-vendor" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" groups="qcom" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" groups="qcom,qssi" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" groups="qcom,qssi" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" groups="qcom,waipio-vendor" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" groups="qcom,waipio-vendor" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" groups="qcom,waipio-vendor" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" groups="qcom,waipio-vendor" remote="exthm" />
-    <project name="android_vendor_qcom_opensource_wfd-commonsys" path="vendor/qcom/opensource/wfd-commonsys" groups="qcom,waipio-video" remote="exthm" />
     <project name="android_vendor_support" path="vendor/support" remote="exthm" />
 
     <!-- CodeLinaro Additions -->
@@ -116,8 +101,6 @@
         <!-- add guards for CAF repositories -->
         <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
@@ -126,29 +109,14 @@
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+        <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
     </project>
-    <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom-caf_msm8998_audio" groups="qcom,qcom_audio" remote="exthm" />
-    <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom-caf_msm8998_display" groups="pdk,qcom,qcom_display" remote="exthm" />
-    <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom-caf_msm8998_media" groups="qcom" remote="exthm" />
-    <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom-caf_sdm845_audio" groups="qcom,qcom_audio" remote="exthm" />
-    <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom-caf_sdm845_display" groups="pdk,qcom,qcom_display" remote="exthm" />
-    <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom-caf_sdm845_media" groups="qcom" remote="exthm" />
-    <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom-caf_sm8150_audio" groups="qcom,qcom_audio" remote="exthm" />
-    <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom-caf_sm8150_display" groups="pdk,qcom,qcom_display" remote="exthm" />
-    <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom-caf_sm8150_media" groups="qcom" remote="exthm" />
-    <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom-caf_sm8250_audio" groups="qcom,qcom_audio" remote="exthm" />
-    <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom-caf_sm8250_display" groups="pdk,qcom,qcom_display" remote="exthm" />
-    <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom-caf_sm8250_media" groups="qcom" remote="exthm" />
-    <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom-caf_sm8350_audio" groups="qcom,qcom_audio" remote="exthm" />
-    <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom-caf_sm8350_display" groups="pdk,qcom,qcom_display" remote="exthm" />
-    <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom-caf_sm8350_media" groups="qcom" remote="exthm" />
-    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan" remote="exthm" />
-    <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom-caf_thermal" groups="qcom_thermal" remote="exthm" />
     <project path="hardware/qcom-caf/bt" name="android_hardware_qcom-caf_bt" groups="qcom_bt" remote="exthm" />
-    <project path="hardware/qcom-caf/vr" name="android_hardware_qcom-caf_vr" groups="qcom_vr" remote="exthm" />
-    <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="exthm" />
-    <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="exthm" />
-    <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" groups="generic_fs,qcom_sm7250" remote="exthm" />
-    <project path="hardware/qcom/sm7250/media" name="android_hardware_qcom_sm7250_media" groups="generic_fs,qcom_sm7250" remote="exthm" />
+    <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="exthm" />
+    <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="exthm" />
+    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="exthm" />
+    
 
 </manifest>
