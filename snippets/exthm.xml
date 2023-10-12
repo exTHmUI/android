@@ -114,9 +114,9 @@
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
     </project>
     <project path="hardware/qcom-caf/bt" name="android_hardware_qcom-caf_bt" groups="qcom_bt" remote="exthm" />
-    <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="exthm" />
-    <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="exthm" />
-    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="exthm" />
+    <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom-caf_thermal" groups="qcom,waipio-vendor" remote="exthm" />
+    <project path="hardware/qcom-caf/vr" name="android_hardware_qcom-caf_vr" groups="qcom,sdm660" remote="exthm" />
+    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom,waipio-vendor" remote="exthm" />
     
 
 </manifest>
