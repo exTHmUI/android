@@ -54,6 +54,12 @@
     <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="exthm" />
     <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="exthm" />
     <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="exthm" />
+    <project name="android_hardware_qcom_sm7250_display" path="hardware/qcom/sm7250/display" groups="qcom,qcom_sm7250" remote="exthm"/>
+    <project name="android_hardware_qcom_sm7250_gps" path="hardware/qcom/sm7250/gps" groups="qcom,qcom_sm7250" remote="exthm">
+        <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
+        <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
+    </project>
+    <project name="android_hardware_qcom_sm7250_media" path="hardware/qcom/sm7250/media" groups="qcom,qcom_sm7250" remote="exthm"/>
 
     <!-- Helper scripts -->
     <project name="android_tools_extract-utils" path="tools/extract-utils" remote="exthm"/>
