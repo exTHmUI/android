@@ -47,6 +47,7 @@
     <!-- Hardware -->
     <project name="android_hardware_interfaces" path="hardware/interfaces" remote="exthm" />
     <project name="android_hardware_libhardware" path="hardware/libhardware" remote="exthm" />
+    <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="exthm" />
     <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="exthm" />
     <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="exthm" />
     <project name="android_hardware_qcom_data_ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" remote="exthm" />
