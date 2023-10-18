@@ -35,6 +35,7 @@
 
     <!-- External -->
     <project name="android_external_tinycompress" path="external/tinycompress" remote="exthm" />
+    <project name="android_external_json-c" path="external/json-c" remote="exthm" />
 
     <!-- Google Devices -->
     <project name="android_device_google_raviole" path="device/google/raviole" remote="exthm" />
