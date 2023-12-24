@@ -37,7 +37,6 @@
     <project name="android_external_boringssl" path="external/boringssl" remote="exthm" />
     <project name="android_external_jemalloc_new" path="external/jemalloc_new" groups="pdk" remote="exthm" />
     <project name="android_external_sqlite" path="external/sqlite" remote="exthm" />
-    <project name="android_external_json-c" path="external/json-c" remote="exthm" />
 
     <!-- Frameworks -->
     <project name="android_frameworks_av" path="frameworks/av" remote="exthm" />

@@ -47,23 +47,19 @@
     <remove-project name="device/google/redbull-sepolicy" />
     <remove-project name="device/google/redfin" />
     <remove-project name="device/google/redfin-sepolicy" />
-    <remove-project name="device/google/shusky" />
-    <remove-project name="device/google/shusky-kernel" />
-    <remove-project name="device/google/shusky-sepolicy" />
     <remove-project name="device/google/sunfish" />
     <remove-project name="device/google/sunfish-kernel" />
     <remove-project name="device/google/sunfish-sepolicy" />
     <remove-project name="device/google/tangorpro" />
     <remove-project name="device/google/tangorpro-kernel" />
     <remove-project name="device/google/tangorpro-sepolicy" />
-    <remove-project name="device/google/zuma" />
-    <remove-project name="device/google/zuma-sepolicy" />
     <remove-project name="kernel/configs" />
 
     <!-- External -->
+    <remove-project name="platform/external/android-nn-driver" />
+    <remove-project name="platform/external/armnn" />
     <remove-project name="platform/external/avb" />
     <remove-project name="platform/external/boringssl" />
-    <remove-project name="platform/external/cronet" />
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/exfatprogs" />
@@ -88,7 +84,6 @@
     <remove-project name="platform/frameworks/opt/telephony" />
     <remove-project name="platform/frameworks/opt/timezonepicker" />
     <remove-project name="platform/frameworks/opt/net/ims" />
-    <remove-project name="platform/frameworks/opt/telephony"/>
     <remove-project name="platform/frameworks/proto_logging" />
 
     <!-- Hardware -->
