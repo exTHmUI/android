@@ -32,21 +32,12 @@
 
     <!-- Device -->
     <project name="android_device_exthm_sepolicy" path="device/exthm/sepolicy" remote="exthm" />
-    <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="exthm" />
-    <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="exthm" />
-    <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="exthm" />
-    <project name="android_device_qcom_sepolicy_vndr-legacy-um" path="device/qcom/sepolicy_vndr-legacy-um" remote="exthm" />
 
     <!-- External -->
     <project name="android_external_boringssl" path="external/boringssl" remote="exthm" />
     <project name="android_external_jemalloc_new" path="external/jemalloc_new" groups="pdk" remote="exthm" />
     <project name="android_external_sqlite" path="external/sqlite" remote="exthm" />
-    <project name="android_external_tinycompress" path="external/tinycompress" remote="exthm" />
     <project name="android_external_json-c" path="external/json-c" remote="exthm" />
-
-    <!-- Google Devices -->
-    <project name="android_device_google_raviole" path="device/google/raviole" remote="exthm" />
-    <project name="android_device_google_gs101" path="device/google/gs101" remote="exthm" />
 
     <!-- Frameworks -->
     <project name="android_frameworks_av" path="frameworks/av" remote="exthm" />
@@ -59,20 +50,7 @@
     <!-- Hardware -->
     <project name="android_hardware_interfaces" path="hardware/interfaces" remote="exthm" />
     <project name="android_hardware_libhardware" path="hardware/libhardware" remote="exthm" />
-    <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="exthm" />
-    <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="exthm" />
-    <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="exthm" />
-    <project name="android_hardware_qcom_data_ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" remote="exthm" />
-    <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="exthm" />
-    <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="exthm" />
-    <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="exthm" />
-    <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="exthm" />
-    <project name="android_hardware_qcom_sm7250_display" path="hardware/qcom/sm7250/display" groups="qcom,qcom_sm7250" remote="exthm"/>
-    <project name="android_hardware_qcom_sm7250_gps" path="hardware/qcom/sm7250/gps" groups="qcom,qcom_sm7250" remote="exthm">
-        <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
-        <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
-    </project>
-    <project name="android_hardware_qcom_sm7250_media" path="hardware/qcom/sm7250/media" groups="qcom,qcom_sm7250" remote="exthm"/>
+    <project name="android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" groups="generic_fs,pixel" remote="exthm" />
 
     <!-- Helper scripts -->
     <project name="android_tools_extract-utils" path="tools/extract-utils" remote="exthm"/>
@@ -84,15 +62,17 @@
     <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="exthm" />
     <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="exthm" />
     <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="exthm" />
-    <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="exthm" />
     <project name="android_packages_apps_QrCodeScanner" path="packages/apps/QrCodeScanner" remote="exthm" />
-    <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="exthm" />
     <project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="exthm" />
     <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="exthm" />
     <project name="android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="exthm" />
     <project name="android_packages_apps_YellowPage" path="packages/apps/YellowPage" remote="exthm" />
-    <project name="android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="exthm" />
     <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="exthm" /-->
+    <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="exthm" />
+    <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="exthm" />
+    <project name="android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="exthm" />
+    <project name="android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="exthm" />
+    <project name="android_packages_services_Telecomm" path="packages/services/Telecomm" remote="exthm" />
 
     <!-- Prebuilts -->
     <project name="android_prebuilts_exthmuix" path="prebuilts/exthmuix" remote="exthm" />
@@ -112,43 +92,7 @@
     <project name="android_toolchain_pgo-profiles" path="toolchain/pgo-profiles" remote="exthm" />
 
     <!-- Vendor -->
-    <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" groups="qcom,qssi" remote="exthm" />
     <project name="android_vendor_exthm" path="vendor/exthm" remote="exthm" />
-    <project name="android_vendor_support" path="vendor/support" remote="exthm" />
-
-    <!-- CodeLinaro Additions -->
-    <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="exthm" />
-    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="exthm" >
-        <!-- add guard for AOSP hardware/qcom dir -->
-        <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-        <!-- add guards for CAF repositories -->
-        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
-        <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-        <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
-        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-        <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
-        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
-        <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
-        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
-        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
-    </project>
-    <project path="hardware/qcom-caf/bt" name="android_hardware_qcom-caf_bt" groups="qcom_bt" remote="exthm" />
-    <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom-caf_thermal" groups="qcom,waipio-vendor" remote="exthm" />
-    <project path="hardware/qcom-caf/vr" name="android_hardware_qcom-caf_vr" groups="qcom,sdm660" remote="exthm" />
-    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom,waipio-vendor" remote="exthm" />
-    
+    <project name="android_vendor_support" path="vendor/support" remote="exthm" />    
 
 </manifest>
