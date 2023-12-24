@@ -238,6 +238,6 @@
     <project path="vendor/nxp/opensource/pn5xx/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="ArrowOS" revision="arrow-13.1-pn5xx" />
     <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="ArrowOS" revision="arrow-13.1-pn5xx" />
     <project path="vendor/nxp/opensource/sn100x/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="ArrowOS" revision="arrow-13.1-sn100x" />
-    <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="ArrowOS" revision="arrow-13.1-sn100x" />
+    <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="ArrowOS" revision="arrow-13.1-sn100x" /-->
 
 </manifest>

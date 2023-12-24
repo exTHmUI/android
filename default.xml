@@ -1265,6 +1265,5 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/external.xml" />
   <include name="snippets/exthm.xml" />
-  <include name="snippets/lineage-caf.xml" />
   <!-- END exTHmUI changes -->
 </manifest>
